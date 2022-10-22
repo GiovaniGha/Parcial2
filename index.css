@@ -1,0 +1,209 @@
+header{
+    background-image: url("imagen/fondo 1.jpg");
+    overflow: hidden;
+    position: relative;
+    height: 725px;
+}
+
+header nav{
+    position: relative;
+    z-index: 2;
+    display: flex;
+    height: 155px;
+    justify-content: space-between; 
+    align-items: center;
+    
+}
+
+header nav div{
+    margin: 100px;
+}
+
+header nav div a {
+    margin: 10px;
+    text-decoration: none;
+    color: greenyellow;
+}
+
+body{
+    font-family: sans-serif; 
+    margin: 0;
+}
+
+.titulo{
+    padding-left:30%;
+    padding-top: 8%;
+    padding-right: 30%;
+    font-size:50px;
+    color: greenyellow;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.grid div{
+    color:white;
+}
+
+.grid div:hover{
+    border-right: 1px solid greenyellow;
+    border-left: 1px solid greenyellow;
+}
+
+.BotonFooter{
+    margin-top: 10px;
+    padding: 10px; 
+}
+
+.BotonFooter div {
+    margin-left: 45%;
+}
+
+.BotonFooter div a{
+    border: 3px solid greenyellow;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50px;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.BotonFooter div a:hover{
+    background: linear-gradient(to right, rgb(0, 167, 64), rgb(198, 255, 65));
+    color: black;
+}
+
+
+.grid2{
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align: center;
+}
+
+.grid2 img{
+    margin-top: 100px;
+    position: relative;
+    height: 200px;
+}
+
+.grid2 div{
+    color:  black;
+}
+
+.grid2 div:hover{
+    border-right: 1px solid black ;
+    border-left: 1px solid black ;
+    background-image: url("imagen/fondoanime.jpg");
+    color: white;
+
+}
+
+.grid2 div h5{
+    color: black;
+    background-color: rgba(255, 255, 255, 0.705);
+}
+
+
+.boton{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    
+}
+
+.boton a{
+    border: 3px solid blue;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50px;
+    margin: 10px;
+    padding: 10px;
+    background-color: aliceblue;
+}
+
+.boton a:hover{
+    border: 3px solid rgb(59, 255, 239);
+    background: linear-gradient(to right, rgb(4, 0, 224), rgb(9, 234, 241));
+}
+
+footer{
+    width: 100%;
+    padding: 20px 0px;
+    background-color: rgb(35, 0, 99);
+    background: linear-gradient(60deg, rgb(25, 0, 95),rgb(0, 184, 31));
+}
+
+.container__footer{
+    display:flexbox;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.box__footer{
+    display: flex;
+    flex-direction:column;
+    padding:0px;
+}
+
+.box__footer .titulo{
+    text-align:center;
+    color:rgb(255, 255, 255);
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.box__footer .formulario {
+    width: 450px;
+    padding: 10px;
+    margin: 340px;
+    margin-top: 0px;
+    border-radius: 4px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.box__footer .controls {
+    background-color: rgba(0,0,0,0.5);
+    padding: 20px;
+    margin-bottom: 16px;
+    font-size: 20px;
+}
+
+.box__footer .bloque {
+    background-color: rgba(0,0,0,0.5);
+    border: 0px;
+    padding: 100px;
+    content: 1000px;
+    margin-bottom: 16px;
+    font-size: 20px;
+
+}
+
+.box__footer .enviar {
+    border: none;
+    width: 50%;
+    padding: 15px;
+    margin-top: 20px;
+    margin-left: 113px;
+    font-size: 15px;
+}
+
+.box__footer .enviar:hover{
+    color: white;
+    background: rgb(78, 158, 118);
+    font-style: italic;
+}
